@@ -8,4 +8,4 @@
 3. To get motion analysis information, manual inspect the cell coordinates (the key of trajectory stored in `.pkl` file) and pass the coordinate and trajectory to task3 function
 
 ## Report
-The report of the experiment on the proposed method is discussed in [*`COMP9517 Report.pdf`*](https://github.com/melmarsezio/Computer-Vision/blob/master/COMP9517%20Report.pdf)
+The report of the experiment on the proposed method is discussed in [*`COMP9517 Report.pdf`*](https://github.com/melmarsezio/Computer-Vision/blob/master/COMP9517%20Report.pdf) in detail and properly referenced for any literature reviewed and cited

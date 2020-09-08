@@ -1,7 +1,8 @@
 # Cell Tracking and Mitosis Detection
 #### Coursework project for Computer Vision
 ![Cell%20Tracking%20and%20Mitosis%20Detection.png](https://github.com/melmarsezio/Computer-Vision/blob/master/Cell%20Tracking%20and%20Mitosis%20Detection.png) 
-Three groups of microscopies with different acquisition techniques 
+Three groups of microscopies with different acquisition techniques
+
 Differential Interference Contrast (DIC) images, Fluorescent (Fluo) images, and Phase-contrast (PhC) images [from left to right] 
 ## Instruction
 1. Run [*`Tophat_UltimateErosion_Watershed_Phc_Fluo.ipynb`*](https://github.com/melmarsezio/Computer-Vision/blob/master/Tophat_UltimateErosion_Watershed_Phc_Fluo.ipynb) to get the labels of original image for Fluo and PhC datasets. The labels will be saved as `.npy` file, it could take up to hours to label the entire dataset. Enviroment settings are as [*`requirements.txt`*](https://github.com/melmarsezio/Computer-Vision/blob/master/requirements.txt)

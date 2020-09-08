@@ -1,0 +1,4 @@
+1. Run "Tophat_UltimateErosion_Watershed_Phc_Fluo.ipynb" to get the labels of original image for Fluo and PhC datasets. The labels will be saved as .npy file, it could take up to hours to label the entire dataset.
+2. Run MU-Lux-CZ U-Net model to obtain labels for DIC dataset. The labels will be saves as .tif image file.
+2. Run "project_total.ipynb" to generate output videos. "project_total.ipynb" will try to read labels generated from first and second step, and base on the labels to track and detect mitosis. The trajectory history will also be saved as .pkl file for the purpose of motion analysis.
+3. To get motion analysis information, manual inspect the cell coordinates (the key of trajectory stored in .pkl file) and pass the coordinate and trajectory to task3 function

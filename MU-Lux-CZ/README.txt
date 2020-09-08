@@ -1,0 +1,1 @@
+This model uses the pre-trained weight of MU_Lux_CZ to improve accuracy. Due to the limitation of upload file size, please download this file(http://public.celltrackingchallenge.net/participants/MU-Lux-CZ.zip) into the MU-Lux-CZ folder (current folder).
